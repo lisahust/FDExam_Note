@@ -1,0 +1,26 @@
+{
+    "plugins": [
+        "-lunr",
+        "-search",
+        "search-pro",
+        "chapter-fold",
+        "expandable-chapters",
+        "anchor-navigation-ex",
+        "splitter",
+        "code",
+        "page-treeview",
+        "github",
+        "todo",
+        "tbfed-pagefooter"
+		],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/lisahust"
+        },
+        "tbfed-pagefooter": {
+            "copyright": "lisahust",
+            "modify_label": "该文件最后修改时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    }
+}

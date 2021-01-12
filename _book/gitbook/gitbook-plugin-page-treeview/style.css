@@ -1,0 +1,61 @@
+.level__item {
+    display: inline-block;
+}
+
+.level__parent::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    display: inline-block;
+    margin-left: 0.5em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.level__parent--hidden::after {
+    border-top: 5px solid #000;
+    margin-top: 5px;
+}
+
+.level__parent--opened::after {
+    border-bottom: 5px solid #000;
+    margin-bottom: 5px;
+}
+
+.content {
+    vertical-align: middle;
+}
+
+/**
+ * treeview container
+ */
+
+.treeview__container {
+	position: relative;
+	margin-bottom: 80px;
+	padding-bottom: 20px;
+}
+
+.treeview__container-title {
+	position: absolute;
+    right: 0;
+    bottom: -35px;
+    border-bottom: 1px solid #ccc;
+}
+
+.treeview__main-title {
+    font-size: 20px;
+}
+
+.treeview__copyright {
+	margin-left: 5px;
+    color: #cdcdcd;
+    font-size: 10px;
+}
+
+@media (max-width: 720px) {
+	.treeview__copyright {
+		display: none;
+	}
+}
