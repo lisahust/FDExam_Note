@@ -6,6 +6,8 @@
 
 可惜没考过😭，今年【2021-11】也要继续加油啦！冲鸭～ 一起努力吧💪
 
+网站阅读指路 [notebook_web/](https://lisahust.github.io/notebook1_web/)
+
 
 
 ### 考试科目1:信息系统综合知识  上午9:00-11:30
